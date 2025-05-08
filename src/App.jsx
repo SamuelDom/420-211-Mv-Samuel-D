@@ -11,6 +11,8 @@ function App() {
 
   return (
     <>
+    <NavBar/>
+
       <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/portfolio" element={<Portfolio />} />
@@ -19,10 +21,8 @@ function App() {
     </Routes>
 
 
-    <NavBar/>
-    <Portfolio/>
-    <Interest/>
-    <ProjectForm/>
+  
+    
     </>
   )
 }
