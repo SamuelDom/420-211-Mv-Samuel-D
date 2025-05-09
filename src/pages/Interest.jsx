@@ -13,7 +13,7 @@ export default Interest
 API choisi:  https://developer.spotify.com
 Description:
  
-- Un jeu devine l'artiste de la chanson avec extrait musical (snippet)
+- (optional a la fin)Un jeu devine l'artiste de la chanson avec extrait musical (snippet)
 - Fonctionnalité de Avant/Après bouton pour changer musique
 - Recherche dans la base de données de musique
 -Apparence comme une tableau de mixage/dj
