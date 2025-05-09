@@ -1,8 +1,15 @@
+import './Home.css'
 
 function Home(){
     return(
         <>
-        <h1>Home</h1>
+       <div className='home'>
+        <div className='overlay'></div>
+        {/*rentrer un lien vidéo */ }
+        <div className='text'>
+            <h1>Welcome to my website!</h1>
+        </div>
+       </div>
         </>
     )
 
