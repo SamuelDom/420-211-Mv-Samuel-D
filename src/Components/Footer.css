@@ -1,6 +1,15 @@
-h4{
-    background-color: gray;
-    color: white;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+footer {
+  background-color: #000; /* fond noir */
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  z-index: 2;
 }
+ 
+footer h4 {
+  margin: 0;
+}
+ 
