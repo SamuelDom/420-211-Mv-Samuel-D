@@ -6,7 +6,7 @@ function Portfolio(){
     return(
         <>
         <div className='Portfolio'>
-        {/*<div className='overlay'></div>*/}
+
         <img src={Mountain} />    
         <div className="perso">
         <h2 className="nom">Samuel Richard Domesca</h2>
