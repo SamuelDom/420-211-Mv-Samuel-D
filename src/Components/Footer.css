@@ -1,5 +1,5 @@
 footer {
-  background-color: #000; /* fond noir */
+ background-color: black;
   color: white;
   text-align: center;
   padding: 1rem;
@@ -7,6 +7,7 @@ footer {
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
   z-index: 2;
+  
 }
  
 footer h4 {
