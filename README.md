@@ -1,20 +1,19 @@
-# React + Vite
+## Plan de travail  
++ Semaine du 27 avtil
+  + Création de routes
+  + Création des pages et composant
+  + Création du Dépot 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
++ Semaine du 04 mai
+  + Ajout de css dans différentes pages
+  + Choix Api 
+  + Décisions pour qu'est-ce qu'il y aura à peu prêt pour chaque page
 
-Currently, two official plugins are available:
+À faire pour semaine prochaine:
+- Finir Home page (/login)
+- Commencer Page portfolio aussi
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Commentaire du prof
++ 9 Mai : Update readme (format précis)
 
-#Semaine du 27 avtil
-Création de routes
-Création des pages et composant
-Création du Dépot 
-
-#Semaine du 04 mai
-Ajout de css dans différentes pages
-Choix Api 
-Décisions pour qu'est-ce qu'il y aura à peu prêt pour chaque page
