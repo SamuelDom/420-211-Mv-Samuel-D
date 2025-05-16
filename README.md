@@ -53,6 +53,9 @@ Description page:
   - (Optionel) Commencer la page intéret
 
     ##Commentaire du prof
+      -Compléter les 3 pages
+      -Valider l'Api
+      
 
 
 
