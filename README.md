@@ -37,7 +37,8 @@ Description page:
           -description
           -*date de sortie
       
-  -Portfolio.jsx: Page contenant information sur moi + information proffesionelle + projet réalisé
+  -Portfolio.jsx: Page contenant information sur moi , information proffesionelle , projet réalisé
+  
   -ProjectForm: Page contenant un formulaire pour l'ajout de tâche réalisé
 
 + Semaine 11 mai (Ce qui a été fait)
