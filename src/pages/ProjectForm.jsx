@@ -78,7 +78,7 @@ function ProjectForm(){
         </div>
 
                 <div className='text'>
-                    <input name="titre" type="text" placeholder="Ajputer un titre" />
+                    <input name="titre" type="text" placeholder="Ajouter un titre" />
                     <input name="Desc" type="text" placeholder="Description" />
                     <input name="Date" type="month" placeholder="Entrer le mois" />
                 </div>
