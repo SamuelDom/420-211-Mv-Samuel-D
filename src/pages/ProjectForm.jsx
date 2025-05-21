@@ -15,7 +15,7 @@ function ProjectForm(){
     return(
         <>
         <h1>Formulaire d'ajout</h1>
-        <div className='Formulaire'>
+        
         
         <img src={Form} className="background-image" alt="Formulaire" />
 
@@ -25,51 +25,51 @@ function ProjectForm(){
              <div className='Everycard'>
           <label className="card">
             <input type="radio" name="langage" value="java" />
-            <img src={java} alt="Java" />
+            {/*<img src={java} alt="Java" />*/}
             <span>Java</span>
           </label>
 
           <label className="card">
             <input type="radio" name="langage" value="python" />
-            <img src={python} alt="Python" />
+            {/*<img src={python} alt="Python" />*/}
             <span>Python</span>
           </label>
 
           <label className="card">
             <input type="radio" name="langage" value="clogo" />
-            <img src={clogo} alt="C" />
+           { /*<img src={clogo} alt="C" />*/}
             <span>C</span>
           </label>
 
                 <h4>IDE</h4>
           <label className="card">
             <input type="radio" name="langage" value="bluej" />
-            <img src={bluej} alt="BlueJ" />
+            {/*<img src={bluej} alt="BlueJ" />*/}
             <span>BlueJ</span>
           </label>
 
           <label className="card">
             <input type="radio" name="langage" value="jet" />
-            <img src={Jet} alt="JetBrains" />
+            {/*<img src={Jet} alt="JetBrains" />*/}
             <span>JetBrains</span>
           </label>
 
           <label className="card">
             <input type="radio" name="langage" value="vscode" />
-            <img src={vscode} alt="VS Code" />
+            {/*<img src={vscode} alt="VS Code" />*/}
             <span>VS Code</span>
           </label>
 
             <h4>Bibliothèque/framework</h4>
           <label className="card">
             <input type="radio" name="langage" value="jquery" />
-            <img src={jquery} alt="jQuery" />
+            {/*<img src={jquery} alt="jQuery" />*/}
             <span>jQuery</span>
           </label>
 
           <label className="card">
             <input type="radio" name="langage" value="react" />
-            <img src={react} alt="React" />
+            {/*<img src={react} alt="React" />*/}
             <span>React</span>
           </label>
 
@@ -94,7 +94,7 @@ function ProjectForm(){
             </form>
         
 
-        </div>
+        
         </>
     )
 
