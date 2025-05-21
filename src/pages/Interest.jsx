@@ -1,25 +1,41 @@
+import { useEffect } from "react"
+import { useState } from "react"
+import './Interest.css'
+
 function Interest(){
+{/*
+    const [tvData, setTvData] = useState(null);
+    const [actor, setActor] = useState([]);
+    const [index, setIndex] = useState(0);
+
+      useEffect(() => {
+        fetch("https://api.tvmaze.com/shows/1/cast")
+          .then(res => res.json())
+          .then(data => setTvData(data));
+            if (data.length > 0){
+                setTvData(data[0]);
+                setActor(data);
+                setIndex(0);
+            }
+        }, []);
+
+         function Before(){
+           
+        }
+        
+         function Next(){
+            
+        }
+*/}
+     
+
     return(
-        <>
-        <h1>Interest</h1>
-        </>
-    )
+        
+        <h1>s</h1>
+
+    );
  
 }
  
 export default Interest
  
-/*
-API choisi:  https://developer.spotify.com
-Description:
- 
-- (optional a la fin)Un jeu devine l'artiste de la chanson avec extrait musical (snippet)
-- Fonctionnalité de Avant/Après bouton pour changer musique
-- Recherche dans la base de données de musique
--Apparence comme une tableau de mixage/dj
--Affichage:
-    -titre
-    -description
-    -*date de sortie
- 
-*/

@@ -85,7 +85,7 @@ function ProjectForm(){
 
                 <div className='clarif'>
                     <h4>Choissisez une image/capture écran</h4>
-                    <input name="lien" type="file"/>
+                    <input name="lien" type="file" accept="image/*"/>
                     <h4>Lien pour dépot Gituhub</h4>
                     <input name="lien" type="text" placeholder="Entrer le lien" />
                 </div>

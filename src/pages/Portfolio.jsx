@@ -18,6 +18,8 @@ function Portfolio(){
             de créativité et d’inspiration. Ce portfolio reflète mon univers, <br/>
             mes valeurs et ma manière de concevoir le travail : avec méthode, curiosité et sens du détail.</h3>
          </div>
+
+         
         </div>
 
 
