@@ -1,13 +1,14 @@
 import './Portfolio.css'
 import Mountain from '../Assets/Mountain.webp'
 import photo2 from '../Assets/photo2.png'
+import Timeline from '../Components/Timeline'
 
 function Portfolio({projets}){
     return(
         <>
         <div className='Portfolio'>
 
-        <img src={Mountain} />    
+        <img src={Mountain} className='background' />    
         <div className="perso">
             <h2 className="nom">Samuel Richard Domesca</h2>
             <img className='photo' src={photo2} /> 
@@ -56,38 +57,11 @@ function Portfolio({projets}){
         </div>
          
             <div className='Liste-projets'>
-            <h2>Liste de mes projets</h2>
-            {projets?.map((projets, index) => (
-            <div key={index} className="projet">
-            <h3>{projets.titre}</h3>
-            <p><strong>Description :</strong> {projets.Desc}</p>
-            <p><strong>Date :</strong> {projets.Date}</p>
-            <p><strong>Langage :</strong> {Array.isArray(projets.langage) ? projets.langage.join(', '): projets.langage }</p>
-            <p><strong>IDE :</strong> {Array.isArray(projets.ide) ? projets.ide.join(', '): projets.ide}</p>
-            <p><strong>Bibliothèque :</strong> {Array.isArray(projets.biblio) ? projets.biblio.join(', '): projets.projets}</p>
-            <p><strong>GitHub :</strong> <a href={projets.lien} target="_blank" rel="noreferrer">{projets.lien}</a></p>
-            {projets.image && (
-              <img
-                src={URL.createObjectURL(projets.image)}
-                alt="Projet"
-                style={{ maxWidth: "300px", marginTop: "10px" }}
-              />
-            )}
-          </div>
-        ))}
+                <h2>Liste de mes projets</h2>
+                <Timeline projets={projets} />
             </div>
 
         </div>
-
-
-
-
-
-
-
-
-
-
         </>
     )
 
