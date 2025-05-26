@@ -2,8 +2,14 @@ import { useEffect } from "react"
 import { useState } from "react"
 import './Interest.css'
 import under from '../Assets/under.png'
+import { useContext } from "react";
+import { UserContext } from "../Components/TrackUser"; 
+import { Navigate } from "react-router-dom";
 
 function Interest(){
+
+   const { user } = useContext(UserContext);
+    if (!user) return <Navigate to="/" />;
 
     const [tvData, setTvData] = useState([]);
     const [index, setIndex] = useState(0);

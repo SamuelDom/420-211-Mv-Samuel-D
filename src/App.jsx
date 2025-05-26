@@ -8,6 +8,9 @@ import { Routes, Route } from "react-router-dom"
 import { useState } from 'react'
 import Footer from './Components/Footer.jsx'
 import Debutprojet from './Assets/Projets.js'
+import { UserProvider } from './Components/TrackUser.jsx'
+import Header from './Components/Header.jsx'
+
  
 function App() {
  
@@ -19,9 +22,9 @@ function App() {
 
   return (
     <>
-
+      <UserProvider>
       <NavBar/>
-      
+      <Header/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio projets={projets} />} />
@@ -30,7 +33,7 @@ function App() {
       </Routes>
 
       <Footer/>
- 
+    </UserProvider>
  
    
     </>

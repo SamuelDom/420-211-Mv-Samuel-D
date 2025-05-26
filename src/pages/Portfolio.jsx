@@ -2,8 +2,15 @@ import './Portfolio.css'
 import Mountain from '../Assets/Mountain.webp'
 import photo2 from '../Assets/photo2.png'
 import Timeline from '../Components/Timeline'
+import { useContext } from "react";
+import { UserContext } from "../Components/TrackUser"; 
+import { Navigate } from "react-router-dom";
 
 function Portfolio({projets}){
+
+     const { user } = useContext(UserContext);
+    if (!user) return <Navigate to="/" />;
+
     return(
         <>
         <div className='Portfolio'>

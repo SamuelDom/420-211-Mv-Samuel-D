@@ -8,10 +8,16 @@ import jquery from '../Assets/jquery.png'
 import python from '../Assets/python.webp'
 import react from '../Assets/react.png'
 import vscode from '../Assets/vscode.jpg'
+import { useContext } from "react";
+import { UserContext } from "../Components/TrackUser"; 
+import { Navigate } from "react-router-dom";
 
 
 
 function ProjectForm(props){
+
+   const { user } = useContext(UserContext);
+    if (!user) return <Navigate to="/" />;
 
       function handleSubmit(event) {
         event.preventDefault()
